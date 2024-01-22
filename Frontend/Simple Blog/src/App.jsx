@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.scss";
-import Admin from "./pages/Admin";
+
 import Posts from "./pages/Posts";
 
 function App() {
@@ -12,10 +12,6 @@ function App() {
 					<Route
 						path='/'
 						element={<Posts />}
-					/>
-					<Route
-						path='/admin'
-						element={<Admin />}
 					/>
 				</Routes>
 			</BrowserRouter>
